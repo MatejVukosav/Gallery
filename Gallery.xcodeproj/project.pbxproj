@@ -12,6 +12,18 @@
 		CE5ADEE61E52961100652BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5ADEE41E52961100652BA8 /* Main.storyboard */; };
 		CE5ADEE81E52961100652BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5ADEE71E52961100652BA8 /* Assets.xcassets */; };
 		CE5ADEEB1E52961100652BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5ADEE91E52961100652BA8 /* LaunchScreen.storyboard */; };
+		CE5ADF731E52990200652BA8 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ADF711E52990200652BA8 /* AlbumsViewController.swift */; };
+		CE5ADF741E52990200652BA8 /* AlbumsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5ADF721E52990200652BA8 /* AlbumsViewController.xib */; };
+		CEAC2A8F1E529ED50032C7A9 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC2A8D1E529ED50032C7A9 /* PicturesViewController.swift */; };
+		CEAC2A901E529ED50032C7A9 /* PicturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAC2A8E1E529ED50032C7A9 /* PicturesViewController.xib */; };
+		CEAC2A931E52A2380032C7A9 /* PictureDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC2A911E52A2380032C7A9 /* PictureDetailsViewController.swift */; };
+		CEAC2A941E52A2380032C7A9 /* PictureDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAC2A921E52A2380032C7A9 /* PictureDetailsViewController.xib */; };
+		CEAC2A961E5348A10032C7A9 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC2A951E5348A10032C7A9 /* AlbumTableViewCell.swift */; };
+		CEAC2A981E534A800032C7A9 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC2A971E534A800032C7A9 /* PictureCollectionViewCell.swift */; };
+		CEAC2A9E1E53B3AC0032C7A9 /* AlbumInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC2A9D1E53B3AC0032C7A9 /* AlbumInfo.swift */; };
+		CEAC2AA01E53B5070032C7A9 /* PictureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC2A9F1E53B5070032C7A9 /* PictureInfo.swift */; };
+		CEAC2AA21E53CB540032C7A9 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAC2AA11E53CB540032C7A9 /* AlbumTableViewCell.xib */; };
+		CEAC2AA41E53CEC30032C7A9 /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAC2AA31E53CEC30032C7A9 /* PictureCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		CE5ADEE71E52961100652BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5ADEEA1E52961100652BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5ADEEC1E52961100652BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5ADF711E52990200652BA8 /* AlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		CE5ADF721E52990200652BA8 /* AlbumsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumsViewController.xib; sourceTree = "<group>"; };
+		CEAC2A8D1E529ED50032C7A9 /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PicturesViewController.swift; path = ../PicturesViewController.swift; sourceTree = "<group>"; };
+		CEAC2A8E1E529ED50032C7A9 /* PicturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PicturesViewController.xib; path = ../PicturesViewController.xib; sourceTree = "<group>"; };
+		CEAC2A911E52A2380032C7A9 /* PictureDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureDetailsViewController.swift; path = ../PictureDetailsViewController.swift; sourceTree = "<group>"; };
+		CEAC2A921E52A2380032C7A9 /* PictureDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PictureDetailsViewController.xib; path = ../PictureDetailsViewController.xib; sourceTree = "<group>"; };
+		CEAC2A951E5348A10032C7A9 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumTableViewCell.swift; path = ../AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		CEAC2A971E534A800032C7A9 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureCollectionViewCell.swift; path = ../PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEAC2A9D1E53B3AC0032C7A9 /* AlbumInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumInfo.swift; path = ../AlbumInfo.swift; sourceTree = "<group>"; };
+		CEAC2A9F1E53B5070032C7A9 /* PictureInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureInfo.swift; path = ../PictureInfo.swift; sourceTree = "<group>"; };
+		CEAC2AA11E53CB540032C7A9 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlbumTableViewCell.xib; path = ../AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		CEAC2AA31E53CEC30032C7A9 /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PictureCollectionViewCell.xib; path = ../PictureCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,17 @@
 		CE5ADEDF1E52961100652BA8 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				CEAC2A8D1E529ED50032C7A9 /* PicturesViewController.swift */,
+				CEAC2A8E1E529ED50032C7A9 /* PicturesViewController.xib */,
+				CEAC2A971E534A800032C7A9 /* PictureCollectionViewCell.swift */,
+				CEAC2AA31E53CEC30032C7A9 /* PictureCollectionViewCell.xib */,
+				CEAC2A951E5348A10032C7A9 /* AlbumTableViewCell.swift */,
+				CEAC2AA11E53CB540032C7A9 /* AlbumTableViewCell.xib */,
+				CEAC2A911E52A2380032C7A9 /* PictureDetailsViewController.swift */,
+				CEAC2A921E52A2380032C7A9 /* PictureDetailsViewController.xib */,
+				CEAC2A9D1E53B3AC0032C7A9 /* AlbumInfo.swift */,
+				CEAC2A9F1E53B5070032C7A9 /* PictureInfo.swift */,
+				CE5ADF6E1E52984300652BA8 /* Albums */,
 				CE5ADEE01E52961100652BA8 /* AppDelegate.swift */,
 				CE5ADEE21E52961100652BA8 /* ViewController.swift */,
 				CE5ADEE41E52961100652BA8 /* Main.storyboard */,
@@ -62,6 +97,16 @@
 				CE5ADEEC1E52961100652BA8 /* Info.plist */,
 			);
 			path = Gallery;
+			sourceTree = "<group>";
+		};
+		CE5ADF6E1E52984300652BA8 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				CE5ADF711E52990200652BA8 /* AlbumsViewController.swift */,
+				CE5ADF721E52990200652BA8 /* AlbumsViewController.xib */,
+			);
+			name = Albums;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5ADEEB1E52961100652BA8 /* LaunchScreen.storyboard in Resources */,
+				CE5ADF741E52990200652BA8 /* AlbumsViewController.xib in Resources */,
+				CEAC2AA41E53CEC30032C7A9 /* PictureCollectionViewCell.xib in Resources */,
+				CEAC2A941E52A2380032C7A9 /* PictureDetailsViewController.xib in Resources */,
+				CEAC2AA21E53CB540032C7A9 /* AlbumTableViewCell.xib in Resources */,
+				CEAC2A901E529ED50032C7A9 /* PicturesViewController.xib in Resources */,
 				CE5ADEE81E52961100652BA8 /* Assets.xcassets in Resources */,
 				CE5ADEE61E52961100652BA8 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAC2A9E1E53B3AC0032C7A9 /* AlbumInfo.swift in Sources */,
+				CEAC2A981E534A800032C7A9 /* PictureCollectionViewCell.swift in Sources */,
+				CEAC2A961E5348A10032C7A9 /* AlbumTableViewCell.swift in Sources */,
+				CEAC2A931E52A2380032C7A9 /* PictureDetailsViewController.swift in Sources */,
 				CE5ADEE31E52961100652BA8 /* ViewController.swift in Sources */,
+				CEAC2A8F1E529ED50032C7A9 /* PicturesViewController.swift in Sources */,
 				CE5ADEE11E52961100652BA8 /* AppDelegate.swift in Sources */,
+				CEAC2AA01E53B5070032C7A9 /* PictureInfo.swift in Sources */,
+				CE5ADF731E52990200652BA8 /* AlbumsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +359,7 @@
 				CE5ADEF11E52961100652BA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
