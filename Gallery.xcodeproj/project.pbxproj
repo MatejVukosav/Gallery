@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0AC5D01E54A8CD00BDC4C4 /* NOvi in Resources */ = {isa = PBXBuildFile; fileRef = CE0AC5CF1E54A8CD00BDC4C4 /* NOvi */; };
 		CE5ADEE11E52961100652BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ADEE01E52961100652BA8 /* AppDelegate.swift */; };
 		CE5ADEE31E52961100652BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ADEE21E52961100652BA8 /* ViewController.swift */; };
 		CE5ADEE61E52961100652BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5ADEE41E52961100652BA8 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0AC5CF1E54A8CD00BDC4C4 /* NOvi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NOvi; sourceTree = "<group>"; };
 		CE5ADEDD1E52961100652BA8 /* Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5ADEE01E52961100652BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5ADEE21E52961100652BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		CE5ADEDF1E52961100652BA8 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				CE0AC5CF1E54A8CD00BDC4C4 /* NOvi */,
 				CEAC2A8D1E529ED50032C7A9 /* PicturesViewController.swift */,
 				CEAC2A8E1E529ED50032C7A9 /* PicturesViewController.xib */,
 				CEAC2A971E534A800032C7A9 /* PictureCollectionViewCell.swift */,
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0AC5D01E54A8CD00BDC4C4 /* NOvi in Resources */,
 				CE5ADEEB1E52961100652BA8 /* LaunchScreen.storyboard in Resources */,
 				CE5ADF741E52990200652BA8 /* AlbumsViewController.xib in Resources */,
 				CEAC2AA41E53CEC30032C7A9 /* PictureCollectionViewCell.xib in Resources */,

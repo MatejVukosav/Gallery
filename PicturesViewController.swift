@@ -15,15 +15,15 @@ private let reuseIdentifierCollectionView="Cell"
 class PicturesViewController:  UIViewController,UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    private var nameOfAlbum:String=""
+    private var nameOfAlbum: String=""
     private var numOfPictures=0
     
-    private var pictures:[PictureInfo]=[PictureInfo]()
+    private var pictures: [PictureInfo] = [PictureInfo]()
     
     convenience init(numOfPictures: Int,nameOfAlbum:String) {
         self.init()
         self.numOfPictures = numOfPictures
-        self.nameOfAlbum=nameOfAlbum
+        self.nameOfAlbum = nameOfAlbum
         
         for i in 0 ... numOfPictures{
             pictures.append(PictureInfo(name:"\(nameOfAlbum)\(i)"))
